@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Skills Test</title>
+</head>
+    <style>
+        body{
+            background-image: url(https://wallpapertag.com/wallpaper/middle/1/7/b/526156-robot-wallpapers-1920x1080-high-resolution.jpg);
+            background-size: cover;
+            background-position: center;  
+            top: 0;
+            background-attachment: fixed;
+        
+        }
+
+        .form{
+            border: 2px solid;
+            display:inline-block;
+            padding: 20px;
+            margin: 20px;
+            max-width: 300px;
+        }
+
+        #logo{
+            display: block;
+            margin: auto;
+            
+        }
+
+        h1{
+            text-align: center;
+            color: rgb(60, 60, 167);
+        }
+
+        p{
+            text-align: center;
+        }
+
+        .button{
+            display: block;
+            margin: auto;
+            background-color: rgb(60, 60, 167);
+            color: azure;
+
+        }
+
+  
+        footer{
+            text-align: center;
+        }       
+       
+    </style>
+<body>
+    <div class="form">
+        <img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQzSzEic48whR35tFVX9nfqL34JcqzW2_OXEv-AiZ4ilnviZdhUsWISGc&s=10" style="width: 100px;" > 
+        
+        <h1>OBMC Robotics Club Application</h1>
+        <p>Welcome! Please fill out this form to apply for our school's Robotics Club.</p>
+        <br>
+      <form>
+        <!-- Full Name -->
+         <label>Full Name:</label><br>
+           <input type="text">
+        <br>
+
+        <!-- Email -->
+         <label>Email:</label><br>
+            <input id="email" type="text">
+        <br>
+        
+       
+        <!-- Grade Level -->
+        <label>Grade Level:</label>
+        <br>
+            <select id="grade level">
+                <option value="grade 7"> Grade 7</option>
+                <option value="grade 8">Grade 8 </option>
+                <option value="grade 9"> Grade 9</option>
+                <option value="grade 10">Grade 10 </option>
+                <option value="grade 11"> Grade 11</option>
+                <option value="grade 12">Grade 12</option>
+            </select>
+            <br>
+
+        <!-- Gender -->
+        <label>Gender:</label>
+
+          <input type="radio" name="gender">
+          <label for="male">Male</label>
+
+          <input type="radio" name="gender">
+          <label for="female">Female</label>
+          <br>
+        
+        <!-- Skills -->
+          <legend>What are your skills?</legend>
+          
+          <input type="checkbox" name="skills">
+          <label for="skill?">Coding</label>
+
+          <input type="checkbox" name="skills">
+          <label for="skills?">Design</label>
+
+          <input type="checkbox" name="genre">
+          <label for="skills?">Electronics</label>
+
+        <br>
+        
+        <!-- Tell us why you want to join: -->
+           <legend>Tell us why you want to join:</legend>
+           <textarea name="instructions" id="why" placeholder="why do you want to join?"></textarea><br>
+         
+        <!-- Top Robotics Activities -->
+           <h4>Top Robotic Activities We Offer:</h4>
+            <ul>
+                <li>Line Following Robots</li>
+                <li>Obstacle Avoidance Programming</li>
+                <li>Light Following Robot</li>
+            </ul>
+             
+        <!-- Helpful Links -->
+           <h4>Helpful Links:</h4>
+            <ol>
+                <a href="https://robotic.org/"><li>Robotics.Org</li></a>
+                <a href="https://www.firstinspires.org/"><li>First Robotics</li></a>
+            </ol>
+        
+        <input type="submit" value="Submit Application" class="button">
+      </form>
+    </div>
+
+    <footer name="footer">
+        <p>© 2026 Robotics Club Application | Created by Isabella Z. Sheng  9-Sapphire</p>
+    </footer>
+
+</body>
+</html>
